@@ -1,0 +1,460 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font: 14px "微软雅黑", Arial;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+/* Layout */
+.layout {
+  margin: 0 auto;
+  width: 1252px;
+}
+
+/* Header */
+#header {
+  height: 83px;
+  overflow: hidden;
+  background: #eee;
+}
+
+/* Header > Logo */
+.logo {
+  float: left;
+  padding: 3px 8px 0;
+  width: 204px;
+  height: 80px;
+}
+
+.logo a {
+  display: block;
+  width: 204px;
+  height: 80px;
+  text-indent: -9999px;
+  background: url(../images/logo.jpg) no-repeat center;
+}
+
+/* Header > Nav */
+.nav {
+  float: left;
+  margin-left: 37px;
+  font-size: 0;
+  background: #eee;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  display: block;
+  padding: 44px 20px 24px;
+  font-size: 16px;
+  line-height: 1;
+  color: #2b312f;
+}
+
+.nav li a:hover {
+  color: #2692b6;
+  background: #dae3e9;
+}
+
+/* Header > Actions */
+.actions {
+  float: left;
+  margin-left: 112px;
+  padding: 14px 33px;
+  height: 55px;
+}
+
+.actions a:hover {
+  text-decoration: underline;
+}
+
+/* Header > Actions > Login */
+.login {
+  color: #999;
+}
+
+.login a {
+  color: #999;
+}
+
+.lang {
+  margin-left: 30px;
+}
+
+/* Header > Actions > Form */
+form {
+  margin-top: 12px;
+  border: 1px solid #dfdfdf;
+}
+
+input {
+  border: none;
+  height: 24px;
+  line-height: 24px;
+}
+
+.txt {
+  padding-left: 8px;
+  width: 140px;
+  background: #eee;
+}
+
+.sub {
+  width: 30px;
+  height: 24px;
+  background: #eee url(../images/search.jpg) no-repeat center;
+}
+
+/* Main */
+
+/* Main > Banner */
+.banner {
+  border-top: 4px solid #d83d29;
+  height: 408px;
+}
+
+/* Main > Banner > Images */
+.images {
+  height: 364px;
+  overflow: hidden;
+}
+
+.images li, .handle li {
+  float: left;
+}
+
+.images a {
+  display: block;
+  width: 1252px;
+  height: 364px;
+}
+
+/* Main > Banner > Hot & Handle */
+.hot-handle {
+  position: relative;
+  width: 1252px;
+  height: 40px;
+  background: #999;
+}
+
+/* Main > Banner > Hot & Handle > Hot */
+.hot {
+  padding-left: 93px;
+  height: 40px;
+  line-height: 40px;
+  color: #ddd;
+}
+
+.hot:hover {
+  text-decoration: underline;
+}
+
+/* Main > Banner > Hot & Handle > Handle */
+.handle {
+  position: absolute;
+  bottom: 14px;
+  right: 100px;
+}
+
+.handle li {
+  margin-right: 6px;
+}
+
+.handle a {
+  display: block;
+  border: 1px solid #e2e2e2;
+  width: 20px;
+  height: 9px;
+  background: #999;
+}
+
+.handle a:hover {
+  background: #e2e2e2;
+}
+
+/* Main > Service */
+.service {
+  padding: 34px 43px 0;
+  height: 400px;
+}
+
+.service ul {
+  overflow: visible;
+}
+
+.service li {
+  position: relative;
+  float: left;
+  margin-right: 70px;
+  height: 280px;
+}
+
+.service h3 {
+  padding-left: 20px;
+  padding-right: 14px;
+  height: 51px;
+  font-size: 20px;
+  line-height: 51px;
+  color: #cf3b2f;
+  overflow: hidden;
+}
+
+.service span {
+  float: right;
+  display: block;
+  font-size: 0;
+}
+
+.service span a {
+  display: inline-block;
+  width: 6px;
+  height: 51px;
+}
+
+.service .last {
+  background: url(../images/last.jpg) no-repeat center;
+}
+
+.service .next {
+  margin-left: 14px;
+  background: url(../images/next.jpg) no-repeat center;
+}
+
+.service li img {
+  border: 1px solid #cbcbcd;
+}
+
+.service .headline {
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  display: block;
+  padding-left: 20px;
+  width: 320px;
+  height: 50px;
+  line-height: 50px;
+  color: #f5ffff;
+  background: rgba(153, 153, 153, .5);
+}
+
+.service .headline:hover {
+  background: rgba(153, 153, 153, 1);
+}
+
+/* Main > Others */
+.others {
+  padding-top: 20px;
+  width: 100%;
+  height: 261px;
+  overflow: hidden;
+  background: #eee;
+}
+
+/* Main > Others > Helper */
+.others .helper {
+  float: left;
+  padding: 0 30px 0 68px;
+  width: 803px;
+  overflow: hidden;
+}
+
+.others .helper li {
+  float: left;
+  margin-right: 90px;
+}
+
+.others .helper dt {
+  margin-bottom: 4px;
+  height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #dc3733;
+}
+
+.others .helper dd {
+  height: 24px;
+}
+
+.others .helper dd a {
+  line-height: 24px;
+  color: #666;
+}
+
+.others .helper dd a:hover {
+  text-decoration: underline;
+}
+
+/* Main > Others > Media */
+.others .media {
+  float: left;
+  border-left: 1px solid #ccc;
+  padding-left: 23px;
+  font-size: 0;
+}
+
+.media-nav a {
+  display: inline-block;
+  margin-right: 15px;
+  width: 27px;
+  height: 27px;
+}
+
+.media-nav .wechat {
+  position: relative;
+  background: url(../images/media01.jpg) no-repeat;
+}
+
+.media-nav .wechat span {
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  display: block;
+  margin-left: -4px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid #0a5d33;
+  border-right: 4px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.media-nav .weibo {
+  background: url(../images/media02.jpg) no-repeat;
+}
+
+.media-nav .app {
+  background: url(../images/media03.jpg) no-repeat;
+}
+
+.media-nav .ins {
+  background: url(../images/media04.jpg) no-repeat;
+}
+
+.wechat-qr {
+  margin-top: 13px;
+  overflow: hidden;
+}
+
+.wechat-qr li {
+  float: left;
+}
+
+.wechat-qr li p {
+  height: 42px;
+  font-size: 14px;
+  line-height: 42px;
+  color: #dc3733;
+  text-align: center;
+}
+
+/* Footer */
+#footer {
+  background: #333;
+  height: 40px;
+  font-size: 0;
+  color: #eee;
+}
+
+/* Footer > Other Link */
+.other-link {
+  padding-left: 43px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.other-link a {
+  color: #eee;
+}
+
+.other-link a:hover {
+  text-decoration: underline;
+}
+
+/* Footer > Copyright */
+.copyright {
+  margin-left: 254px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+/* Footer > Record */
+.record {
+  display: inline-block;
+  margin-left: 4px;
+  padding-left: 20px;
+  width: 256px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  vertical-align: middle;
+  background: url(../images/ga.png) no-repeat left center, url(../images/pic.gif) no-repeat right center;
+}
+
+/* Footer > Back Top */
+.back-top {
+  display: inline-block;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  background: url(../images/backtop.jpg) no-repeat center;
+}
+
+/* Contact */
+.contact {
+  position: fixed;
+  bottom: 63px;
+  right: 17px;
+  width: 53px;
+  height: 127px;
+  background: url(../images/contact.png) no-repeat;
+}
+
+.contact .wechat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 53px;
+  height: 42px;
+}
+
+.contact .weibo {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  display: block;
+  width: 53px;
+  height: 39px;
+}
+
+.contact .ins {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  display: block;
+  width: 53px;
+  height: 42px;
+}
